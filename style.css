@@ -1,0 +1,216 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+}
+
+/* Header Section */
+.header {
+  background-image: url(images/donation13.jpg);
+  background-repeat: no-repeat;
+  height: 650px;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 65px;
+  margin: 0px 300px;
+  margin-bottom: 20px;
+  padding-top: 170px;
+}
+.header-dre {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0px 300px;
+  margin-bottom: 30px;
+}
+.btn-pri {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  border: 0;
+  padding: 18px 35px;
+  height: 64px;
+  border-radius: 5px;
+  background: #fd6e0a;
+}
+/* Donate Today Section */
+
+.donate-today {
+  margin-top: 130px;
+  /* margin-bottom: 20px; */
+}
+.donate-head {
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+  color: #121212;
+  margin-bottom: 20px;
+}
+.donate-dsc {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #707070;
+  margin-bottom: 50px;
+}
+/* Box Design */
+.item {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.item-head {
+  width: 130px;
+  height: 120px;
+  text-align: center;
+  /* justify-content: space-around; */
+  background: #fafafa;
+  border-radius: 5px;
+
+  font-weight: 700;
+  font-size: 30px;
+  color: #707070;
+}
+.item-active {
+  box-sizing: border-box;
+  width: 135px;
+  height: 120px;
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ff5959;
+  text-align: center;
+}
+.other-amaount {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #b3b3b3;
+  margin: 0px 330px;
+}
+main hr {
+  margin-bottom: 30px;
+}
+/* Donate plan style */
+.donate-plan {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 135px;
+}
+.item-plan1 {
+  box-sizing: border-box;
+  width: 360px;
+  height: 352px;
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 5px;
+  padding: 0px 22px;
+  padding-top: 65px;
+}
+.item-plan2 {
+  box-sizing: border-box;
+  width: 360px;
+  height: 352px;
+  background: rgba(255, 89, 89, 0.1);
+  border-radius: 5px;
+  padding: 0px 22px;
+  padding-top: 65px;
+}
+.item-plan3 {
+  box-sizing: border-box;
+  width: 360px;
+  height: 352px;
+  background: #fff4d6;
+  border-radius: 5px;
+  padding: 0px 22px;
+  padding-top: 65px;
+}
+.plan-img {
+  margin-bottom: 30px;
+}
+.plan-title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #121212;
+}
+.plan-dsc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
+}
+/* Banner 1  and Banner2 style*/
+.banner-1 {
+  display: flex;
+  gap: 95px;
+  justify-content: center;
+  padding: 0px 160px;
+  align-items: center;
+  margin-bottom: 150px;
+}
+.banner1-title {
+  ont-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  color: #121212;
+  margin-bottom: 20px;
+}
+.banner1-dsc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #707070;
+  margin-bottom: 20px;
+}
+.banner-1 img{
+  width: 100%;
+}
+/* Get my updates part */
+.updates {
+  text-align: center;
+  margin: 100px;
+}
+.subscribe {
+  background-color: #fff4d6;
+  padding: 76px 190px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 0px 350px;
+}
+#email-des {
+  background: #d9d9d9;
+  border: 0;
+  padding: 18px 35px;
+  height: 30px;
+  width: 275px;
+  border-radius: 5px;
+}
+.be-humble {
+  text-align: center;
+  background: #0b0d17;
+}
+.be-humble-title {
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ff5959;
+  margin-bottom: 24px;
+  padding-top: 43px;
+}
+.be-humble p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #d9dbe1;
+  padding-bottom: 43px;
+}
