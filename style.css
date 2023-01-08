@@ -5,7 +5,7 @@
 
 /* Header Section */
 .header {
-  background-image: url(images/donation13.jpg);
+  background-image: url(./images/donation13.jpg);
   background-repeat: no-repeat;
   height: 650px;
   background-size: cover;
@@ -53,7 +53,7 @@
   font-size: 18px;
   text-align: center;
   color: #707070;
-  margin-bottom: 50px;
+  margin: 0px 300px 50px;
 }
 /* Box Design */
 .item {
@@ -155,6 +155,9 @@ main hr {
   align-items: center;
   margin-bottom: 150px;
 }
+.banner1-des {
+  width: 50%;
+}
 .banner1-title {
   ont-weight: 700;
   font-size: 45px;
@@ -169,8 +172,8 @@ main hr {
   color: #707070;
   margin-bottom: 20px;
 }
-.banner-1 img{
-  width: 100%;
+.banner-1 img {
+  width: 500px;
 }
 /* Get my updates part */
 .updates {
